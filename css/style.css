@@ -24,6 +24,7 @@ h1 {
     font-size:1.5em;
     line-height: 1.75em;
     color: #CDaa22;
+    text-align:center;
 }
 
 h2 {
@@ -44,6 +45,7 @@ a {
     font-weight: 800;
     text-decoration: none;
     color: #999999;
+    text-align:center;
 }
 
 form{
@@ -61,6 +63,8 @@ form{
     min-height:100%;
     padding: 0px 0 35px 0;
     background-color:#ffffff;
+    text-align:center;
+    border-color:gray;
 /*    overflow:auto;
 */}
 
@@ -80,6 +84,7 @@ form{
     margin: 0 auto;
     padding: 25px ;
     overflow: hidden;
+    text-align:center;
 }
 
 #inner_infobox{
@@ -103,12 +108,14 @@ form{
     background-color: #ffff11; 
     height: 150px;
     border-bottom: 15px solid #66cc66;
+    margin:auto;
 }
 
 .header h1 a{
     color:#000300;
     font-size: 400%;
     padding: 150px 0px 0px 100px;
+    margin:auto;
 }
 
 .header_links{
@@ -126,7 +133,7 @@ form{
     font-size: 1.1em;
     color: #FFFFFF;
     margin-top: -20px;
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -135,6 +142,7 @@ form{
     text-align: left;
     font-size: 0.8em;
     color:#ffffff;
+    text-align:center;
 
 }
 
@@ -153,6 +161,32 @@ form{
 ----------------
 
 #output {
-	background-color:white;
-	width: 100px
+	background-color:blue;
+	width: 50%
+}
+
+------------
+
+#outcome {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#greensquare {
+	background:#98bf21;
+	height:200px;
+	width:150px;
+	position:absolute
+	text-align:center;
 }
