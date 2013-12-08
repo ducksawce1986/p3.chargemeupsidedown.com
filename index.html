@@ -16,12 +16,13 @@
 
 <body>
 	<div class="footer">
-		<h1>Boston Gig Earnings Calculator</h1><br>
+		<h1><a>Where should my band play, and just how much can I make?</a></h1><br>
+
 	</div>
 
 	<div class="container">
-		<h2>Where can I perform? Select from the options below:</h2>
-
+		<h2>Want to know where to play in Boston? Pick an option below that best describes your group. You'll be offered several choices of Boston venues. Next, choose which venues you'd like to perform at, and the amount of members in your group. At bottom is the amount you can make from your show(s)</h2>
+		<span class='cancun'>
 		<button id='never_gigged'>Never Gigged</button>
 		<button id='acoustic'>Acoustic Groups</button>
 		<button id='cover_group'>Cover Groups</button>
@@ -29,11 +30,14 @@
 		<button id='indie_labels'>Indie-Label Acts</button>
 		<button id='major_labels'>Major-Label Acts</button>
 		<button id='rock_stars'>Rock Stars</button>
+		</span>
+
+		<div id='greensquare' style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>	
 
 		<div class="infobox">
-			<h2>Venues:</h2><br>
-				<p id='obriens'><input type='checkbox' name='venues' value='100'>O'brien's Pub<br></p>
-				<p id='midway'><input type='checkbox' name='venues' value='200'>Midway Cafe<br></p>
+			<h2>Venues:</h2>
+				<p id='obriens'><input type='checkbox' name='venues' value='100'>O'brien's Pub</p>
+				<p id='midway'><input type='checkbox' name='venues' value='200'>Midway Cafe</p>
 				<p id='church'><input type='checkbox' name='venues' value='300'>Church<br></p>
 				<p id='great_scott'><input type='checkbox' name='venues' value='400'>Great Scott<br></p>
 				<p id='club_passim'><input type='checkbox' name='venues' value='450'>Club Passim<br></p>
@@ -50,7 +54,8 @@
 				<p id='bank_of_america_pavilion'><input type='checkbox' name='venues' value='500000'>Bank of America Pavilion<br></p>
 				<p id='td_banknorth_garden'><input type='checkbox' name='venues' value='1000000'>TD BankNorth Garden<br></p>
 		</div>	
-		<br><br>
+
+		<div id='greensquare' style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>	
 
 		<div class='infobox'>
 			<h3>How many members does your group have?</h3>
@@ -71,9 +76,8 @@
 	</div>
 
 	<div class="footer">
-		<button>Show me that money!</button>
+		<p2><span id="outcome"><p1>You'll make $<span id='output'></span> per group member</p1></span></p>
         
-        Total: $<span id='output'></span> / Group Member
     </div>
 
 	<script>
