@@ -1,6 +1,6 @@
-/*----------------------------------------------
-JQuery Logic Functions For Button Menu Atop Page
-----------------------------------------------*/
+/*------------------------------------------------
+JQuery Functions Distinguishing Between Band Types
+------------------------------------------------*/
 
 $(document).ready(function(){
   	$("#never_gigged").click(function(){
@@ -44,6 +44,12 @@ $(document).ready(function(){
     });
 });
 
+-----------------------------
 
+$(document).ready(function() {
+    $("#indie_labels").click(function() {
+        $("div").animate({right:'250px'});
+    });
+});
 
 
